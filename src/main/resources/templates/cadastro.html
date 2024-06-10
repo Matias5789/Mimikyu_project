@@ -341,10 +341,20 @@
         span {
             color: red
         }
+         .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            
+        }
+        .container main {
+            flex: 1 1 0;
+            min-width: 100vh;
+        }
 
     </style>
 </head>
-<body>
+<body class="container">
     <header>
         <div>
         <h1 class="titulo"> <a class="inicial" href="/">Mimikyu Information</a></h1>
